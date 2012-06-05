@@ -1,0 +1,29 @@
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  text-shadow:0 -1px 0 rgba(0,0,0,0.15), 0 1px 0 rgba(255,255,255,0.8);
+}
+.news-item {
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #79889C;
+}
+
+a, a:hover {
+  color: #172131;
+}
+a:hover {
+  text-decoration: none;
+  color: #3B557E;
+}
+
+a:visited {
+  color: #79889C;
+}
+
+.description {
+  font-size: 1.3em;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.15), 0 1px 0 rgba(255,255,255,0.8);
+}

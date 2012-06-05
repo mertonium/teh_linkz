@@ -1,0 +1,14 @@
+.row-fluid
+  h1.span12 The doings that are a transpirin'.&nbsp;&nbsp;
+    small Around you.
+.row-fluid
+  ul.unstyled
+    each item in news
+      li.news-item.row-fluid
+        .span1
+          img(src="#{item.thumbnail_url}", class="thumbnail")
+        .span9
+          a(href="#{item.url}", target="_blank", class="description")
+            = item.description || "(untitled)"
+        .span2
+          = item.source
